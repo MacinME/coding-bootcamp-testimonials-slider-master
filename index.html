@@ -27,14 +27,22 @@
 
           <!-- Arrows component -->
           <div class="testimonial__header-arrows">
-            <button type="button" class="testimonial__header-buttons-1">
+            <button
+              type="button"
+              id="btn-prev"
+              class="testimonial__header-buttons-1"
+            >
               <img
                 src="./assets/images/icon-prev.svg"
                 alt="Prev"
                 class="testimonial__header-arrow-1"
               />
             </button>
-            <button type="button" class="testimonial__header-buttons-2">
+            <button
+              type="button"
+              id="btn-next"
+              class="testimonial__header-buttons-2"
+            >
               <img
                 src="./assets/images/icon-next.svg"
                 alt="Next"
@@ -54,9 +62,11 @@
 
       <section class="testimonial__body">
         <div class="testimonial__body-text">
-          “ I’ve been interested in coding for a while but never taken the jump,
-          until now. I couldn’t recommend this course enough. I’m now in the job
-          of my dreams and so excited about the future. ”
+          <p class="testimonial__body-text-p">
+            “ I’ve been interested in coding for a while but never taken the
+            jump, until now. I couldn’t recommend this course enough. I’m now in
+            the job of my dreams and so excited about the future. ”
+          </p>
           <div class="testimonial__body-author">
             <div class="testimonial__body-author-name">Tanya Sinclair</div>
             <div class="testimonial__body-author-position">UX Engineer</div>
@@ -99,5 +109,8 @@
     <div class="testimonial__curve">
       <img src="./assets/images/pattern-curve.svg" alt="Bg Pattern" />
     </div>
+
+    <!-- Scripts -->
+    <script src="./app.js" type="module"></script>
   </body>
 </html>
