@@ -119,6 +119,13 @@ body {
     gap: 19px;
 }
 
+h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 44px;
+}
+
 .testimonial__body-author {
     text-align: center;
     font-size: 15px;
