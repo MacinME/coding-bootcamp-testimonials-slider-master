@@ -120,10 +120,9 @@ body {
 }
 
 h1 {
-    font-size: 32px;
-    font-style: normal;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 44px;
+    line-height: 24px;
 }
 
 .testimonial__body-author {
@@ -263,6 +262,11 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 32px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 44px;
     }
 
     .testimonial__body-author {
